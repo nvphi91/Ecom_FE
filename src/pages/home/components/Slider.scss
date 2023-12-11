@@ -1,0 +1,33 @@
+.slider_container {
+    & .slick-prev {
+        left: 25px;
+        z-index: 10;
+    } 
+
+    & .slick-next {
+        right: 25px;
+        z-index: 10;
+    } 
+
+    & .slick-dots {
+      z-index: 10;  
+      bottom: 8px;
+
+      li {
+          button {
+              &::before {
+                  color: white;
+              }
+          }
+      }
+      .slick-active {
+        button {
+            &::before {
+              color: white;
+              scale: 1.2;
+            }
+        }
+    }
+      
+    }
+}

@@ -1,0 +1,111 @@
+.product_detail_container {
+    padding: 0 120px;
+
+    .product_title{
+        margin: 0;
+        color: rgb(39, 39, 42);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 150%;
+    }
+
+    .product_rate{
+        display: flex;
+        align-items: center;
+        margin-right: 4px;
+        font-size: 14px;
+        line-height: 150%;
+        font-weight: 500;
+
+        .product_rate_selled {
+            color: rgb(120, 120, 120);
+            font-size: 14px;
+            margin-left: 8px;
+            line-height: 24px;
+        }
+    }
+    .product_price{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 150%;
+        color: rgb(39, 39, 42);
+        sup {
+            font-size: 75%;
+            line-height: 0;
+        }
+    }
+
+    .product_address_box {
+        // background-color: white;
+        display: flex;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 400;
+        gap: 8px;
+        line-height: 150%;
+        flex: 1 1 0%;
+
+        .product_address_name {
+            color: rgb(39, 39, 42);
+            overflow: hidden;
+            width: 100%;
+        }
+    }
+
+    .product_quantity{
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        border: 1px solid #ccc;
+        width: fit-content;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 4px;
+
+        .ant-input-number{ 
+            width: 40px;
+            border: none;
+            border-radius: 0px;
+            outline-color: transparent;
+        }
+    }
+
+    .btn_buy_now{
+        background: rgb(255, 66, 78);
+        border-radius: 4px;
+        border: none ;
+        cursor: pointer;
+        font-weight: 300;
+        align-items: center;
+        gap: 8px;
+        color: rgb(255, 255, 255);
+        height: 40px;
+        width: 220px;
+        font-size: 16px;
+        line-height: 150%;
+        transition: none;
+        justify-content: center;
+
+        &:hover {
+            span {
+                border-color: white;
+                color: white;
+            }
+        }
+    }
+
+    .btn_buy_first{
+        border-radius: 4px;
+        border: 1px solid rgb(13, 92, 182);
+        cursor: pointer;
+        font-weight: 300;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 220px;
+        line-height: 150%;
+        transition: none;
+        color: rgb(13, 92, 182);
+    }
+    
+}

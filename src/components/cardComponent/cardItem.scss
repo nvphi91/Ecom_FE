@@ -1,0 +1,39 @@
+.card_product {
+    position: relative;
+}
+
+.card_name_product {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgb(56, 56, 61);
+}
+
+.card_rate_product {
+    font-size: 11px;
+    color: rgb(128, 128, 137);
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.card_price_product {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 66, 78);
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+
+    div {
+        font-size: 12px;
+        margin-left: 8px;
+    }
+}
+
+.card_img_logo{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    max-width: 70px;
+}

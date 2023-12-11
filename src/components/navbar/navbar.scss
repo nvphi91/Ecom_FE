@@ -1,0 +1,26 @@
+.checkbox_group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.navbar_price {
+    border-radius: 10px;
+    background-color: #ccc;
+    width: fit-content;
+    padding: 4px;
+    margin-top: 8px;
+    color: rgb(56, 56, 61);
+}
+
+.nav_bar_title {
+    color: rgb(56, 56, 61);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar_text_value{ 
+    color: rgb(56, 56, 61);
+    font-size: 12px;
+    font-weight: 400;
+}

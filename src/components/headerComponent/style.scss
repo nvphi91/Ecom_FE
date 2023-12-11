@@ -1,0 +1,66 @@
+@use "sass:map";
+@import "styles/pages/theme.scss";
+
+.header_top {
+     background: rgb(10, 134, 243);
+     padding: 10px 120px;
+     align-items: center;
+    //  flex-wrap: nowrap;
+}
+
+.header_top_left {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    // white-space: nowrap;
+}
+
+.header_top_right {
+    display: flex;
+    color: white;
+    gap: 20px;
+    // align-items: center;
+    margin-left: 16px;
+
+    .header_top_right_account {
+        cursor: pointer;
+        display: flex;
+        gap: 10px;
+
+        .icon_user {
+            font-size: 18px;
+            // margin-left: 10px;
+            // margin-right: 10px;
+        }
+    
+        .span_login {
+            font-size: 12px;
+            white-space: nowrap;
+        }
+    }
+    
+    .header_top_right_card {
+        color: white;
+        white-space: nowrap;
+        .span_card {
+            font-size: 12px;
+            margin-left: 8px;
+            
+        }
+
+        .icon_cart {
+            font-size: 18px;
+            color: white;
+        }
+    }
+}
+
+.logout {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 150%;
+    &:hover {
+        color: #0a86f3;
+    }
+}

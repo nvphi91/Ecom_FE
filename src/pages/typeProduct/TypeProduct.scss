@@ -1,0 +1,28 @@
+.type_product_container{
+    padding: 10px 120px;
+
+    .type_product_content {
+        background: #efefef;
+        flex-wrap: nowrap;
+    }
+
+    .navbar_container{
+        background: white;
+        margin-right: 10px;
+        padding: 10px;
+        border-radius: 4px;
+        height: fit-content;
+    }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .paging {
+        text-align: center;
+        margin: 10px;
+    
+    }
+}

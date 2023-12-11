@@ -1,0 +1,107 @@
+.login_container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ccc;
+    height: 100vh;
+
+    .login_content {
+        width: 800px;
+        height: 445px;
+        border-radius: 6px;
+        background: #fff;
+        display: flex;
+    }
+
+    .login_content_left{
+        flex: 1;
+        padding: 40px 45px 24px;
+        display: flex;
+        flex-direction: column;
+
+        h4 {
+            margin: 0px 0px 10px;
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        p {
+            margin: 0px;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+        .forgot_pass{
+            color: rgb(13, 92, 182);
+            font-size: 13px;
+            margin: 20px 0px 0px;
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        .create-account{
+            color: rgb(120, 120, 120);
+            font-size: 13px;
+            margin: 10px 0px 0px;
+
+            span {
+                color: rgb(13, 92, 182);
+                display: inline-block;
+                margin-left: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .login_content_right{
+        display: flex;
+        width: 300px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: linear-gradient(136deg, rgb(240, 248, 255) -1%, rgb(219, 238, 255) 85%);
+
+        .content {
+            margin: 30px 0px 0px;
+            text-align: center;
+
+            h4{
+                margin: 0px 0px 5px;
+                color: rgb(11, 116, 229);
+                font-size: 17px;
+                font-weight: 500;
+            }
+
+            span{
+                font-size: 13px;
+                color: rgb(11, 116, 229);
+                font-weight: 500;
+            }
+        }
+    }
+
+    .btn_buy_now{
+        background: rgb(255, 66, 78);
+        border-radius: 4px;
+        margin: 26px 0  10px;
+        border: none ;
+        cursor: pointer;
+        font-weight: 300;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        height: 40px;
+        font-size: 16px;
+        line-height: 150%;
+        transition: none;
+        justify-content: center;
+    
+        &:hover {
+            span {
+                border-color: white;
+                color: white;
+            }
+        }
+    }
+}
+

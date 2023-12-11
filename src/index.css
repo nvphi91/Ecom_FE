@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base { 
+  body {
+    @apply text-primary
+  }
+  p {
+    @apply text-secondary
+  }
+  .h1 {
+    @apply text-4xl xl:text-5xl text-primary font-bold mb-[18px]
+  }
+  .h2 {
+    @apply text-3xl mb-6 font-semibold
+  }
+  .h3 {
+    @apply text-2xl mb-4 font-semibold
+  }
+  .description {
+    @apply text-base xl:text-xl xl:leading-8
+  }
+  .section {
+    @apply w-full h-screen pt-[60px] xl:pt-[120px]
+  }
+  .btn {
+    @apply rounded-[18px] w-full uppercase font-medium
+    text-white text-sm flex items-center justify-center
+    transition-all duration-300
+  }
+  .btn-sm {
+   @apply h-14
+  }
+  .btn-lg {
+   @apply h-16
+  }
+  .btn-cta {
+   @apply bg-primary h-[54px] rounded-[5px] px-4
+   transition-all duration-300
+  }
+  .btn-primary {
+    @apply bg-primary
+  }
+  .btn-accent {
+    @apply bg-accent hover:bg-accent-hover
+  }
+  .active {
+    @apply text-accent
+  }
+  .dropdown {
+    @apply w-full cursor-pointer lg:max-w-[296px]
+  }
+  .dropdown-btn {
+    @apply flex h-[64px] items-center px-4
+  }
+}
+
+.gradientBg {
+  background: linear-gradient(136deg, rgb(240, 248, 255) -1%, rgb(219, 238, 255) 85%);
+}
